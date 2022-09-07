@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Robot"/>
     <fullyQualifiedTypeName name="modelo.Robot"/>
     <fullyQualifiedTypeName name="modelo.CasaInteligente"/>
     <fullyQualifiedTypeName name="com.ibm.j9ddr.vm29.structure.type"/>
     <fullyQualifiedTypeName name="java.util.PrimitiveIterator.OfDouble"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
