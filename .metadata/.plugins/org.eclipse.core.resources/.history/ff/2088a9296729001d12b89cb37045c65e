@@ -1,0 +1,9 @@
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Este es mi primer programa Java.");
+		System.out.print("Este es mi primer programa Java.n");
+		System.out.println("Este es mi primer programa Java.");
+	}
+
+}

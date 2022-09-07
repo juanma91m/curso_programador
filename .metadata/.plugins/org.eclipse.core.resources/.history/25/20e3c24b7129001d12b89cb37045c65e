@@ -1,0 +1,17 @@
+package principal;
+
+import java.util.Scanner;
+
+public class OrdenadorNumeros {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		
+		int ingreso = teclado.nextInt();
+		int ingreso2 = teclado.nextInt();
+		
+		System.out.println(ingreso);
+	}
+
+}

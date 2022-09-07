@@ -1,0 +1,21 @@
+public class PruebaRobot {
+
+	public static void main(String[] args) {
+		Double b = 0.3;
+		Double c = 0.3;
+		System.out.println(b.hashCode());
+		System.out.println(c.hashCode());
+
+		Robot miRobot = new Robot();
+		CasaInteligente casa = new CasaInteligente();
+
+		casa.asignarRobotLimpieza(miRobot);
+		casa.habitantes = 2;
+
+		casa.salirCasa();
+
+		casa.salirCasa();
+		System.out.println(casa.habitantes);
+		System.out.println(miRobot.x + "   " + miRobot.y + "    " + miRobot.estado);
+	}
+}

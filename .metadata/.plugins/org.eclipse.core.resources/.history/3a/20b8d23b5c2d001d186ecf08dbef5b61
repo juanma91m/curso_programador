@@ -1,0 +1,7 @@
+
+public class PruebaRobot {
+
+	public static void main(String[] args) {
+		Robot miRobot = new Robot();
+	}
+}

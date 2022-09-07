@@ -1,0 +1,16 @@
+
+public class Robot {
+	int x;
+	int y;
+	String estado;
+	
+	void limpiar(int posicionX, int posicionY) {
+		mover(posicionX, posicionY);
+		estado = "LIMPIANDO";
+	}
+	
+	void mover(int posicionX, int posicionY) {
+		x = posicionX;
+		y = posicionY;
+	}
+}

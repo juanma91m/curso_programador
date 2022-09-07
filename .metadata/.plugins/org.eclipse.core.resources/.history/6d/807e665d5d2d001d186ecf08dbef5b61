@@ -1,0 +1,16 @@
+
+public class CasaInteligente {
+	int habitantes;
+	Robot robotLimpieza;
+
+	void salirCasa() {
+		habitantes = habitantes - 1;
+		
+		if (habitantes == 0)
+			robotLimpieza.limpiar(10,10);
+	}
+	
+	void asignarRobotLimpieza(Robot robot) {
+		robotLimpieza = robot;
+	}
+}
