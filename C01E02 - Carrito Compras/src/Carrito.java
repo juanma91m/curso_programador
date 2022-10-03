@@ -1,9 +1,9 @@
 
 public class Carrito {
-	int proximaPosicion = 0;
-	int cantMax = 10;
-	Producto[] productos = new Producto[cantMax];
-	int[] unidades = new int[cantMax];
+	private int proximaPosicion = 0;
+	private int cantMax = 10;
+	private Producto[] productos = new Producto[cantMax];
+	private int[] unidades = new int[cantMax];
 
 	float calcularPrecioCompra() {
 		float precio = 0;
@@ -14,6 +14,13 @@ public class Carrito {
 			i++;
 		}
 		return precio;
+	}
+
+	public Producto getProducto(int posicion) {
+		if (posicion < proximaPosicion - 1)
+			return this.productos[posicion];
+		else
+			return null;
 	}
 
 	boolean agregarProducto(Producto p, int cant) {
@@ -41,8 +48,8 @@ public class Carrito {
 		int i = 0;
 
 		while (i < proximaPosicion) {
-			System.out.println(productos[i].nombre + " - " + unidades[i] + " - " + productos[i].obtenerPrecioFinal()
-					+ " - " + unidades[i] * productos[i].obtenerPrecioFinal());
+			System.out.println(productos[i].getNombre() + " - " + unidades[i] + " - "
+					+ productos[i].obtenerPrecioFinal() + " - " + unidades[i] * productos[i].obtenerPrecioFinal());
 			i++;
 		}
 

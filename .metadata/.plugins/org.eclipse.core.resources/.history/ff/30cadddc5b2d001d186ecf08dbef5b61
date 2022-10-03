@@ -1,9 +1,0 @@
-
-public class CasaInteligente {
-	int habitantes;
-	Robot robotLimpieza;
-
-	void salirCasa() {
-		habitantes = habitantes - 1;
-	}
-}

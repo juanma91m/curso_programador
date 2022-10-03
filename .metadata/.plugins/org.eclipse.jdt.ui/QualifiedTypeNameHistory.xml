@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="com.ibm.j9ddr.vm29.structure.type"/>
     <fullyQualifiedTypeName name="java.util.PrimitiveIterator.OfDouble"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Producto"/>
+    <fullyQualifiedTypeName name="paquete1.Clase2"/>
+    <fullyQualifiedTypeName name="org.postgresql.Driver"/>
 </qualifiedTypeNameHistroy>
